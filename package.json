@@ -1,0 +1,19 @@
+{
+  "name": "ts-loan-cor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackaton-elite/ts-loan-cor.git"
+  },
+  "author": "Petre Pătrașc <petre@dreamlabs.ro>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackaton-elite/ts-loan-cor/issues"
+  },
+  "homepage": "https://github.com/hackaton-elite/ts-loan-cor"
+}
