@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/hackaton-elite/ts-loan-cor/issues"
   },
-  "homepage": "https://github.com/hackaton-elite/ts-loan-cor"
+  "homepage": "https://github.com/hackaton-elite/ts-loan-cor",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-typescript": "^2.7.5"
+  }
 }
