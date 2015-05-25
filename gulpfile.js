@@ -17,12 +17,9 @@ gulp.task('tests', function () {
         .pipe(jasmine());
 });
 
-gulp.task('default', ['typescript', 'tests']);
+gulp.task('default', ['typescript']);
 
 gulp.task('watch', function () {
     gulp.watch('./src/**/*.*', ['default'])
-        .on('error', function(err){ console.log(err.message); });
-
-    gulp.watch('./tests/**/*.*', ['default'])
         .on('error', function(err){ console.log(err.message); });
 })
