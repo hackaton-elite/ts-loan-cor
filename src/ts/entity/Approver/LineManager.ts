@@ -1,3 +1,6 @@
+import ApproverType = require('../../constant/ApproverType');
+import AbstractApprover = require('./AbstractApprover');
+
 class LineManager extends AbstractApprover {
     public static THRESHOLD = 10000;
 
@@ -5,3 +8,5 @@ class LineManager extends AbstractApprover {
         super(ApproverType.LINE_MANAGER, LineManager.THRESHOLD);
     }
 }
+
+export = LineManager;

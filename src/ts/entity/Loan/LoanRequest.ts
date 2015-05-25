@@ -13,3 +13,5 @@ class LoanRequest {
         this._value = value;
     }
 }
+
+export = LoanRequest;

@@ -6,8 +6,8 @@ gulp.task('typescript', function () {
     var tsResult = gulp.src('src/ts/**/*.ts')
         .pipe(ts({
             noImplicitAny: true,
-            out: 'app.js',
-            target: 'ES5'
+            target: 'ES5',
+            module: 'commonjs'
         }));
     return tsResult.js.pipe(gulp.dest('dist/js'));
 });

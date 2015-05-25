@@ -1,3 +1,11 @@
+import ApproverType = require('../constant/ApproverType');
+import AbstractApprover = require('../entity/Approver/AbstractApprover');
+import LoanRequest = require('../entity/Loan/LoanRequest');
+import LoanApprovalSummary = require('../entity/Loan/LoanApprovalSummary');
+import Agent = require('../entity/Approver/Agent');
+import LineManager = require('../entity/Approver/LineManager');
+import BranchManager = require('../entity/Approver/BranchManager');
+
 class LoanApplicationService {
     private _firstApprover:AbstractApprover;
 
@@ -33,3 +41,5 @@ class LoanApplicationService {
         this._firstApprover = value;
     }
 }
+
+export = LoanApplicationService;

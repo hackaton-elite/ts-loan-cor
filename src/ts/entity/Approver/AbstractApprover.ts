@@ -1,3 +1,6 @@
+import LoanApprovalSummary = require('../Loan/LoanApprovalSummary');
+import LoanRequest = require('../Loan/LoanRequest');
+
 class AbstractApprover {
     private _type:string;
 
@@ -50,3 +53,5 @@ class AbstractApprover {
         this._nextInChain = value;
     }
 }
+
+export = AbstractApprover;

@@ -1,3 +1,5 @@
+import AbstractApprover = require('../Approver/AbstractApprover');
+
 class LoanApprovalSummary {
     private _approvedStatus:boolean;
 
@@ -24,3 +26,5 @@ class LoanApprovalSummary {
         this._approvedBy = value;
     }
 }
+
+export = LoanApprovalSummary;

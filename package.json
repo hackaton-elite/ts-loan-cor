@@ -21,6 +21,7 @@
     "gulp-typescript": "^2.7.5"
   },
   "devDependencies": {
-    "gulp-jasmine": "^2.0.1"
+    "gulp-jasmine": "^2.0.1",
+    "jasmine": "^2.3.1"
   }
 }

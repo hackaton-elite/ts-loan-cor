@@ -1,3 +1,8 @@
+import ApproverType = require('../../constant/ApproverType');
+import AbstractApprover = require('./AbstractApprover');
+import LoanRequest = require('../Loan/LoanRequest');
+import LoanApprovalSummary = require('../Loan/LoanApprovalSummary');
+
 class BranchManager extends AbstractApprover {
     public static THRESHOLD = 50000;
 
@@ -13,3 +18,5 @@ class BranchManager extends AbstractApprover {
         return this.rejectLoan();
     }
 }
+
+export = BranchManager;
